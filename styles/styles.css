@@ -234,6 +234,7 @@ header .header__conoce {
 }
 
 .beneficios {
+  position: relative;
   background-color: var(--warm-black);
   color: var(--just-white);
   padding-top: 64px;
@@ -246,7 +247,7 @@ header .header__conoce {
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: 1522px;
+  top: -11px;
   width: 38px;
   height: 24px;
 }
@@ -276,6 +277,8 @@ header .header__conoce {
 .beneficios__card {
   width: 90%;
   min-width: 280px;
+  max-width: 500px;
+  height: 150px;
   margin: 0 auto;
   background-color: var(--black);
   padding: 16px;
