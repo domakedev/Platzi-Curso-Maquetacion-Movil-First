@@ -47,7 +47,7 @@ header .header__text__container {
 }
 
 header .header__titulo {
-  font-family: DM Sans;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 2.6rem;
@@ -60,7 +60,7 @@ header .header__description {
   font-size: 1.4rem;
   color: var(--soft-orange);
 
-  font-family: DM Sans;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
@@ -70,7 +70,7 @@ header .header__description {
 
 header .header__conoce {
   font-size: 1.4rem;
-  font-family: DM Sans;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.8rem;
   text-decoration: none;
@@ -117,7 +117,7 @@ header .header__conoce {
 }
 
 .tasas__descripcion {
-  font-family: DM Sans;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.4rem;
@@ -129,7 +129,8 @@ header .header__conoce {
   width: 90%;
 }
 
-.tabla__monedas, .tabla__comisiones {
+.tabla__monedas,
+.tabla__comisiones {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
@@ -141,7 +142,8 @@ header .header__conoce {
   margin-top: 24px;
 }
 
-.tabla__monedas__title, .tabla__comisiones__title{
+.tabla__monedas__title,
+.tabla__comisiones__title {
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 2.3rem;
@@ -157,7 +159,8 @@ header .header__conoce {
   color: var(--secondary-blue);
 }
 
-.tabla__monedas table, .tabla__comisiones table {
+.tabla__monedas table,
+.tabla__comisiones table {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
@@ -176,7 +179,8 @@ header .header__conoce {
   letter-spacing: -0.02em;
 }
 
-.tabla__monedas table td, .tabla__comisiones table td {
+.tabla__monedas table td,
+.tabla__comisiones table td {
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
@@ -209,8 +213,6 @@ header .header__conoce {
   border-radius: 0 0 13px 0;
 }
 
-
-
 .tabla__monedas .tabla__aviso {
   background-color: var(--soft-orange);
   color: var(--warm-black);
@@ -221,12 +223,88 @@ header .header__conoce {
   color: var(--warm-black);
 }
 
-.tabla__aviso{
+.tabla__aviso {
   margin-top: 15px;
   padding: 8px;
   border-radius: 8px;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+.beneficios {
+  background-color: var(--warm-black);
+  color: var(--just-white);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  height: max-content;
+}
+
+.beneficios__header__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 1522px;
+  width: 38px;
+  height: 24px;
+}
+
+.beneficios__titulo {
+  text-align: center;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  margin: 0px 15px 24px 15px;
+}
+
+.beneficios__descripcion {
+  text-align: center;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #808080;
+  margin: 24px 15px 32px 15px;
+}
+
+.beneficios__card {
+  width: 90%;
+  min-width: 280px;
+  margin: 0 auto;
+  background-color: var(--black);
+  padding: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.beneficios__card__icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.beneficios__card_titulo {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  margin-bottom: 10px;
+}
+
+.beneficios__card__descripcion {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #808080;
 }
