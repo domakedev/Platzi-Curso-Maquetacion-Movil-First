@@ -129,7 +129,7 @@ header .header__conoce {
   width: 90%;
 }
 
-.tabla__monedas{
+.tabla__monedas, .tabla__comisiones {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
@@ -137,8 +137,11 @@ header .header__conoce {
   margin: 0 auto;
 }
 
-.tabla__monedas__title {
-  color: var(--bitcoin-orange);
+.tabla__comisiones {
+  margin-top: 24px;
+}
+
+.tabla__monedas__title, .tabla__comisiones__title{
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 2.3rem;
@@ -146,30 +149,34 @@ header .header__conoce {
   text-align: left;
 }
 
-.tabla__monedas table{ 
+.tabla__monedas__title {
+  color: var(--bitcoin-orange);
+}
+
+.tabla__comisiones__title {
+  color: var(--secondary-blue);
+}
+
+.tabla__monedas table, .tabla__comisiones table {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  color: #B5B0AC;
+  color: #b5b0ac;
   border-radius: 4px;
   border: solid 1px var(--off-white);
 
-font-style: normal;
-font-weight: normal;
-font-size: 1.4rem;
-line-height: 1.7rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
 
-text-align: center;
-letter-spacing: -0.02em;
+  text-align: center;
+  letter-spacing: -0.02em;
 }
 
-.tabla__monedas table tr{
-  border: solid 1px var(--off-white);
-}
-
-.tabla__monedas table td{
+.tabla__monedas table td, .tabla__comisiones table td {
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
@@ -179,28 +186,46 @@ letter-spacing: -0.02em;
 }
 
 .tabla__tendencia__precio__icono {
-
   margin: 0 auto;
-
-
 }
 
 .tabla__tendencia__precio__icono img {
   margin-left: 5px;
 }
 
-.tabla__monedas .top__left{
-border-radius: 13px 0 0 0;
+.top__left {
+  border-radius: 13px 0 0 0;
 }
 
-.tabla__monedas .top__right{
-border-radius: 0 13px 0 0;  
+.top__right {
+  border-radius: 0 13px 0 0;
 }
 
-.tabla__monedas .botom__left{
-border-radius: 0 0 0 13px;
+.botom__left {
+  border-radius: 0 0 0 13px;
 }
 
-.tabla__monedas .botom__right{
-border-radius: 0 0 13px 0;  
+.botom__right {
+  border-radius: 0 0 13px 0;
+}
+
+
+
+.tabla__monedas .tabla__aviso {
+  background-color: var(--soft-orange);
+  color: var(--warm-black);
+}
+
+.tabla__comisiones .tabla__aviso {
+  background-color: #e7f5ff;
+  color: var(--warm-black);
+}
+
+.tabla__aviso{
+  padding: 8px;
+  border-radius: 8px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
