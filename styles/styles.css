@@ -116,7 +116,7 @@ header .header__conoce {
   max-width: 900px;
 }
 
-.tasas p {
+.tasas__descripcion {
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -222,6 +222,7 @@ header .header__conoce {
 }
 
 .tabla__aviso{
+  margin-top: 15px;
   padding: 8px;
   border-radius: 8px;
   font-family: Inter, Arial, Helvetica, sans-serif;
