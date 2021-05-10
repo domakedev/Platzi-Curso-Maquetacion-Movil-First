@@ -1,0 +1,15 @@
+.beneficios__cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.tablas__informativas{
+    display: flex;
+    gap: 73px;
+}
+
+.tabla__comisiones{
+    
+}

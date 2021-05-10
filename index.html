@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/movil.css" />
+    <link rel="stylesheet" href="styles/tablet.css" media="(min-width:930px)" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
@@ -104,53 +105,55 @@
         <p class="beneficios__descripcion">
           Confiable y diseñado para su uso diario.
         </p>
-        <div class="beneficios__card">
-          <img
-            class="beneficios__card__icon"
-            src="assets/icons/clock.svg"
-            alt=""
-          />
-          <h3 class="beneficios__card_titulo">Tiempo real</h3>
-          <p class="beneficios__card__descripcion">
-            Nuestro API toma información minuto a minuto sobre las tasas que más
-            determinan el comportamiento.
-          </p>
-        </div>
-        <div class="beneficios__card">
-          <img
-            class="beneficios__card__icon"
-            src="assets/icons/eye.svg"
-            alt=""
-          />
-          <h3 class="beneficios__card_titulo">No hay tasas escondidas</h3>
-          <p class="beneficios__card__descripcion">
-            Ni en la compra o al momento de exit, Batabit siempre te muestra el
-            costo real de lo que estás adquiriendo.
-          </p>
-        </div>
-        <div class="beneficios__card">
-          <img
-            class="beneficios__card__icon"
-            src="assets/icons/dollar-sign.svg"
-            alt=""
-          />
-          <h3 class="beneficios__card_titulo">Compara monedas</h3>
-          <p class="beneficios__card__descripcion">
-            No más rumores, con Babtabit sabrás el valor real de cada moneda en
-            el mercado actual.
-          </p>
-        </div>
-        <div class="beneficios__card">
-          <img
-            class="beneficios__card__icon"
-            src="assets/icons/check-circle.svg"
-            alt=""
-          />
-          <h3 class="beneficios__card_titulo">Información confiable</h3>
-          <p class="beneficios__card__descripcion">
-            Nuestras fuentes están 100% verificadas y continuamos auditando su
-            contenido mientras se actualizan.
-          </p>
+        <div class="beneficios__cards__container">
+          <div class="beneficios__card">
+            <img
+              class="beneficios__card__icon"
+              src="assets/icons/clock.svg"
+              alt=""
+            />
+            <h3 class="beneficios__card_titulo">Tiempo real</h3>
+            <p class="beneficios__card__descripcion">
+              Nuestro API toma información minuto a minuto sobre las tasas que
+              más determinan el comportamiento.
+            </p>
+          </div>
+          <div class="beneficios__card">
+            <img
+              class="beneficios__card__icon"
+              src="assets/icons/eye.svg"
+              alt=""
+            />
+            <h3 class="beneficios__card_titulo">No hay tasas escondidas</h3>
+            <p class="beneficios__card__descripcion">
+              Ni en la compra o al momento de exit, Batabit siempre te muestra
+              el costo real de lo que estás adquiriendo.
+            </p>
+          </div>
+          <div class="beneficios__card">
+            <img
+              class="beneficios__card__icon"
+              src="assets/icons/dollar-sign.svg"
+              alt=""
+            />
+            <h3 class="beneficios__card_titulo">Compara monedas</h3>
+            <p class="beneficios__card__descripcion">
+              No más rumores, con Babtabit sabrás el valor real de cada moneda
+              en el mercado actual.
+            </p>
+          </div>
+          <div class="beneficios__card">
+            <img
+              class="beneficios__card__icon"
+              src="assets/icons/check-circle.svg"
+              alt=""
+            />
+            <h3 class="beneficios__card_titulo">Información confiable</h3>
+            <p class="beneficios__card__descripcion">
+              Nuestras fuentes están 100% verificadas y continuamos auditando su
+              contenido mientras se actualizan.
+            </p>
+          </div>
         </div>
       </section>
       <section class="comodin">
@@ -210,7 +213,7 @@
         </ul>
       </section>
       <section class="footer__logo">
-        <img src="assets/icons/batata.svg" alt="">
+        <img src="assets/icons/batata.svg" alt="" />
         <h3>® Batatabit 2020</h3>
       </section>
     </footer>
