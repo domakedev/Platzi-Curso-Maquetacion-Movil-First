@@ -532,6 +532,11 @@ header .header__conoce {
   scroll-snap-type: x proximity;
 }
 
+
+.planes__container__slider::-webkit-scrollbar{
+  display: none;
+}
+
 footer {
   display: flex;
   gap: 50px;
